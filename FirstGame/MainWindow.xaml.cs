@@ -62,6 +62,7 @@ namespace FirstGame
 				textblock.Visibility = Visibility.Visible;
 				if (textblock.Name != "timeTextBlock")
 				{
+					Console.WriteLine();
 					int index = rand.Next(animalEmoji.Count);
 					string nextEmoji = animalEmoji[index];
 					textblock.Text = nextEmoji;
